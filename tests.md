@@ -7,10 +7,21 @@
     ```
     复习内容：re.match的使用；(...)的使用，?:的意义；正则无判断大于小于的操作符。
 
-2. 使用python操作linux目录和文件
+1. 使用python操作linux目录和文件
 
     [python的os库操作文档](https://docs.python.org/3/library/os.html)，[Python os模块常用部分功能](http://developer.51cto.com/art/201003/186045.htm)
 
-3. python中map，reduce，filter的用法
+1. python中map，reduce，filter的用法
 
     [map、reduce和filter的文档](http://book.pythontips.com/en/latest/map_filter.html)
+
+1. 使用python递归计算斐波那契数列
+    ``` python
+    def fibonacci(index):
+        if index == 0:
+            return 0
+        elif index == 1:
+            return 1
+        else:
+            return fibonacci(index - 1) + fibonacci(index - 1)
+    ```
